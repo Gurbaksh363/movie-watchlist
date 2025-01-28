@@ -42,7 +42,7 @@ function renderMovies(moviesIdArr, WatchlistSign) {
                       </div>
                       <div class="movie-details">
                           <span>${movie.imdbVotes} likes</span>
-                          <span>${movie.Genre}</span>IIIIIIIIIIIiiiiii
+                          <span>${movie.Genre}</span>
                           <span>
                           <i class="fa-solid fa-circle-${WatchlistSign} fa-xl" data-id="${id}"></i>
                           Watchlist

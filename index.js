@@ -9,6 +9,9 @@ searchInputEl.addEventListener('keydown', (e) => {
 document.addEventListener('click', (e)=>{
     const id = e.target.dataset.id
     if (id){
+        e.target.classList.remove('fa-circle-plus')
+        e.target.classList.add('fa-circle-check')
+        console.log(e.target)
         let movieWatchlist = JSON.parse(localStorage.getItem('movieWatchlist'))
         if (movieWatchlist === null){
             movieWatchlist = []
